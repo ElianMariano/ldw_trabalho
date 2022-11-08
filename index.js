@@ -5,7 +5,7 @@ import alunoRoutes from './routes/alunoRoutes.js';
 import exercicioRoutes from './routes/exercicioRoutes.js';
 import fichaRoutes from './routes/fichaRoutes.js';
 import grupoMuscularRoutes from './routes/grupoMuscularRoutes.js';
-import instrutor from './routes/instrutor.js';
+import instrutor from './routes/instrutorRoutes.js';
 import tipoExercicioRoutes from './routes/tipoExercicioRoutes.js';
 
 const app = express();

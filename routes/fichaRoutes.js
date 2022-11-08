@@ -1,5 +1,5 @@
 import express from 'express';
-import {createFicha, updateFicha, deleteFicha, getFicha, getFichas} from '../models/Ficha.js';
+import {createFicha, updateFicha, deleteFicha, getFicha, getFichas} from '../controllers/fichaControllers.js';
 
 const router = express.Router();
 

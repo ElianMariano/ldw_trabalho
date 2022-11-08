@@ -1,5 +1,5 @@
 import express from 'express';
-import {createTipoExercicio, updateTipoExercicio, deleteTipoExercicio, getTipoExercicio, getTipoExercicios} from '../models/TipoExercicio.js';
+import {createTipoExercicio, updateTipoExercicio, deleteTipoExercicio, getTipoExercicio, getTipoExercicios} from '../controllers/tipoExercicioController.js';
 
 const router = express.Router();
 

@@ -30,4 +30,4 @@ const TipoExercicioSchema = new Schema({
     GrupoMuscular: GrupoMuscular.schema,
 });
 
-export default mongoose.model("Exercicio", TipoExercicioSchema);
+export default mongoose.model("TipoExercicio", TipoExercicioSchema);

@@ -1,5 +1,5 @@
 import express from 'express';
-import {createInstrutor, updateInstrutor, deleteInstrutor, getInstrutor, getInstrutors} from '../models/Instrutor.js';
+import {createInstrutor, updateInstrutor, deleteInstrutor, getInstrutor, getInstrutors} from '../controllers/instrutorController.js';
 
 const router = express.Router();
 

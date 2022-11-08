@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import TipoExercicio from "./TipoExercicio";
+import TipoExercicio from "./TipoExercicio.js";
 
 const { Schema } = mongoose;
 

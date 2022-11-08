@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const { Schma } = mongoose;
+const { Schema } = mongoose;
 
 const GrupoMuscularSchema = new Schema({
     nome: {

@@ -26,7 +26,7 @@ const AlunoSchema = new Schema({
         index: true,
     },
     senha: {
-        type: Boolean,
+        type: String,
         default: false,
     },
     ativo: {
@@ -41,3 +41,5 @@ const AlunoSchema = new Schema({
     ]
 },
 {timestamps: true});
+
+export default mongoose.model("Aluno", AlunoSchema);

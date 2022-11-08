@@ -1,5 +1,5 @@
 import express from 'express';
-import {createGrupoMuscular, updateGrupoMuscular, deleteGrupoMuscular, getGrupoMuscular, getGrupoMusculars} from '../models/GrupoMuscular.js';
+import {createGrupoMuscular, updateGrupoMuscular, deleteGrupoMuscular, getGrupoMuscular, getGrupoMusculars} from '../controllers/grupoMuscularControllers.js';
 
 const router = express.Router();
 
