@@ -1,12 +1,13 @@
 import express from 'express';
+import verificarToken from '../middleware/verificarToken.js';
 import {createTipoExercicio, updateTipoExercicio, deleteTipoExercicio, getTipoExercicio, getTipoExercicios} from '../controllers/tipoExercicioController.js';
 
 const router = express.Router();
 
-router.post('/', createTipoExercicio);
-router.put('/:id', updateTipoExercicio);
-router.delete('/:id', deleteTipoExercicio);
-router.get('/:id', getTipoExercicio);
-router.get('/', getTipoExercicios);
+router.post('/', verificarToken, createTipoExercicio);
+router.put('/:id', verificarToken, updateTipoExercicio);
+router.delete('/:id', verificarToken, deleteTipoExercicio);
+router.get('/:id', verificarToken, getTipoExercicio);
+router.get('/', verificarToken, getTipoExercicios);
 
 export default router;
